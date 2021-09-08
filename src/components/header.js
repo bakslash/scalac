@@ -14,26 +14,7 @@ export default function Header(props) {
 
  
 
-  // //sort data
-  // const sortArray = type => {
-
-  //   const types = {
-  //     followers: 'followers',
-  //     gists: 'gists',
-  //     repositories: 'repositories',
-  //     contributions: 'contributions',
-
-  //   }
-  //   const sortProperty = type[types];
-  //   const sorted = data.sort((a, b) => b[sortProperty] - a[sortProperty])
-  //   console.log(sorted);
-  //   setSortedData(sorted)
-
-  // }
-
-
-  // props =  setData(data)
-  // console.log(props)
+  
 
   return (
     <>
@@ -68,13 +49,3 @@ export default function Header(props) {
 }
 
 
-{/* <ReactPaginate
-        previousLabel={'prev'}
-        nextLabel={'next'}
-        pageCount={pageCount}
-        totalItemsCount={data.length}
-        pageRangeDisplayed={5}
-        onPageChange={handlePage}
-        containerClassName={'pagination'}
-        activeClassName={'active'}
-    /> */}
